@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="Menu"></div>
+            <ul>
+                <li><a href="#inc">¿Que es?</a></li>
+                <li><a href="#preg">Armas</a></li>
+                <li><a href="#cues">Cuestionario</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="Inicio" id="inc">
+        <h1>¿Que es?</h1>
+        <div class="card">
+            <h2>Drescripcion</h2> Elden Ring es un videojuego de rol de acción desarrollado por FromSoftware y publicado
+            por
+            Bandai Namco Entertainment. El videojuego surge de una colaboración entre el director y diseñador Hidetaka
+            Miyazaki y el novelista de fantasía George R. R. Martin.
+        </div>
+    </section>
+
+    
+    <section class="historia">
+        <div class="card">
+            <p>Sinopis</p>
+            <p>En Elden Ring, la historia se desarrolla en las Tierras Intermedias, un reino caído tras la destrucción
+                del Círculo de Elden y la desaparición de su gobernante, la Reina Márika. El Círculo, fuente de poder y
+                orden, mantenía la estabilidad del reino, pero su fragmentación causó el caos. Los fragmentos del
+                Círculo fueron reclamados por los semidioses, hijos de Márika, quienes entraron en guerra entre ellos,
+                sumiendo al mundo en el desorden.
+
+                El jugador encarna a un Sinluz, un exiliado desterrado y olvidado, que regresa a las Tierras Intermedias
+                tras la llamada del misterioso poder del Círculo. Su misión es restaurar el Círculo de Elden y
+                convertirse en el Señor de Elden, superando desafíos épicos, enfrentando a poderosos semidioses y
+                desentrañando los secretos del mundo. La narrativa, rica en simbolismo y misterio, explora temas de
+                poder, decadencia y la naturaleza del destino.</p>
+
+                
+        </div>
+    </section>
+
+    <section class="Armas" id="preg">
+        <div class="card">
+            <form action="">              
+                <input type="text" name="fav" value="Acontinuacion te mostraremos las armas mas poderosas" readonly>
+                <ol>
+                    <li><a href="https://eldenring.wiki.fextralife.com/Rivers+of+Blood" target="_blank">Rivers of blood</a></li>
+                    <li><a href="https://eldenring.wiki.fextralife.com/Mohgwyn%27s+Sacred+Spear" target="_blank">Moghwyn's SacredSpear</a></li>
+                    <li><a href="https://eldenring.wiki.fextralife.com/Bolt+of+Gransax" target="_blank">Bolt of Gransax</a></li>
+                    <li><a href="https://eldenring.wiki.fextralife.com/Bloodhound's+Fang" target="_blank">Bloodhound's Fang</a></li>
+                    <li><a href="https://eldenring.wiki.fextralife.com/Blasphemous+Blade" target="_blank">Blasphemous Blade</a></li>
+                </ol>
+            </form>
+        </div>
+
+    </section>
+
+<section class="Hechizos">
+    <div class="card">
+        <form action="">   
+            <input type="text" name="fav" value="Acontinuacion te mostraremos los Mejores hechizos" readonly>
+            <ol>
+                <li><a href="https://eldenring.wiki.fextralife.com/Rock+Sling" target="_blank">Lanzarrocas</a></li>
+                <li><a href="https://eldenring.wiki.fextralife.com/Crystal+Torrent" target="_blank">Torrente de cristal</a></li>
+                <li><a href="https://eldenring.wiki.fextralife.com/Glintstone+Pebble" target="_blank">Guijarro de piedras refulgentes</a></li>
+                <li><a href="https://eldenring.wiki.fextralife.com/Greatblade+Phalanx" target="_blank">Círculo de espadones </a></li>
+                <li><a href="https://eldenring.wiki.fextralife.com/Rotten+Breath" target="_blank">Aliento podrido</a></li>
+            </ol>
+        </form>
+    </div>
+
+</section>
+<footer>
+<section class="Cuestionario " id="cues">
+    <div class="card">
+        <p>Nos gustaria saber cuales son tus favoritas!</p>
+
+        <form action="">
+            <label for="Arma">¿Cual es tu arma favorita?</label>
+            <input type="text" for="Arma" class="armafav" >
+            <label for="Hechizo">¿Cual es tu hechizo favorito?</label>
+            <input type="text" for="Hechizo" class="hechizofav">
+            <label for="imagen">¿Tienes alguna imagen de tus armas favoritas?</label>
+            <input type="file" for="imagen" disabled class="img">
+            <label for="email">¿Te gustaria suscribirte para que te enviemos noticias?</label>
+            <input type="email" for="email" required class="email">
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</section>
+</footer>
+</body>
+
+</html>

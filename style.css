@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #b9b5b5;
+    color: #021b2e;
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+h1 ,h1::after {
+    color: #021b2e;
+    font-size: 3rem;
+    text-align: center;
+    content: '⚔️'; 
+    
+}
+
+h2 , h2::before {
+    color: #021b2e;
+    text-align: center;
+    content: '🤓';
+}
+nav>ul a:hover {
+    color: #0bf9f5;
+ 
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    font-size: 1.9rem;
+}
+nav a {
+    color: #fcfeff;
+    font-size: 2rem;
+    text-align: center;
+}
+
+nav {
+    background-color: #021b2e;
+    color: #f9f9ef;
+    width: 90%;
+    margin: auto;
+    max-width: 1800px;
+    padding: 0.9rem 2rem;
+    border-radius: 3rem 3rem;
+}
+
+.card {
+    background-color: #f9f9ef;
+    color: #021b2e;
+    width: 50%;
+    margin: 1rem auto;
+    max-width: 1800px;
+    padding: 3rem 2rem;
+    display: flex;
+    border-radius: 3rem 3rem; 
+    font-family: Jost;
+    font-weight: 600;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+
+
+.historia  p:only-of-type::first-letter ,p:nth-last-child(2)::first-letter {
+    font-size: 2rem;
+    color: #021b2e;
+}
+
+.historia p::selection {
+    background-color: #021b2e;
+    color: #f9f9ef;
+}
+
+.historia p::first-line,  {
+    font-size: 2rem;
+    color: #021b2e;
+}
+
+.Armas form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    
+}
+
+.Armas form input:read-only  {
+    width: 200%; 
+    max-width: 500px; 
+    height: 0.9rem; 
+    padding: 0.5rem; 
+    background-color: #b9b5b5;
+    border: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+
+    
+}
+
+.Armas form a:hover, a:link, a:active {
+    color: rgb(67, 247, 27);
+    font-size: 1.2rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+.Armas form label, form input {
+    display: block;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.Hechizos form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    
+}
+
+.Hechizos form input:read-only  {
+    width: 200%; 
+    max-width: 500px; 
+    height: 0.9rem; 
+    padding: 0.5rem; 
+    background-color: #b9b5b5;
+    border: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+
+    
+}
+
+.Hechizos form a:hover {
+    color: rgb(67, 247, 27);
+    font-size: 1.2rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.Hechizos form a:visited {
+    color: rgb(27, 236, 247);
+    font-size: 1.2rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.Hechizos form label, form input {
+    display: block;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.Cuestionario form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.Cuestionario form input:read-write , input:enabled, input:active {
+    background-color: #ffffff;
+    border: none;
+    font-weight: 600;
+    font-size: 1.1rem;  
+}
+
+.Cuestionario form .armasfav:optional, .hechizosfav:optional {
+    display: flex;
+}
+
+.Cuestionario form .img:disabled {
+    color: red;
+}
+
+.Cuestionario form .email:required, .email:focus, .email:valid {
+    color: black;
+}
